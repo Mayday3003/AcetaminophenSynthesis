@@ -298,13 +298,16 @@ Se sustituyeron los bucles *for* por operaciones vectorizadas en matrices de `Nu
 ## A. Justificación de las Temperaturas Evaluadas
 
 Para realizar un análisis termodinámico riguroso, se escogieron tres temperaturas específicas basándose en los reportes de la literatura de la síntesis del acetaminofén:
+
 1. **298.15 K (25 °C - Temperatura Ambiente):** Es la temperatura a la cual se desarrolla la reacción según el protocolo de la Royal Society of Chemistry [2] y el Método IV de Srabovic et al [1]. Modela el estado natural de los reactivos y productos sin estimulación térmica extra.
+
 2. **353.15 K (80 °C - Fase de Purificación):** Es la temperatura mencionada en la literatura [2] a la cual se disuelve el producto crudo en agua para su recristalización.
-3. **373.15 K (100 °C - Reflujo/Baño María):** Modela los métodos I, II y III de síntesis [1], donde se somete el sistema a ebullición o reflujo suave para acelerar la reacción.
+
+3. **373.15 K (100 °C - Reflujo/Baño María):** Modela los métodos I, II y III de síntesis [1], donde se somete el sistema a ebullición o reflujo para acelerar la reacción.
 
 ## B. Tablas de Potenciales Termodinámicos
 
-Para facilitar la comparativa del efecto de solvatación, los resultados (obtenidos del archivo anexo `resumen_termodinamico.csv`) se han separado en tablas según la temperatura.
+Para facilitar la comparativa del efecto de solvatación, los resultados se han separado en tablas según la temperatura:
 
 ### Tabla 6.1 - Potenciales a 298.15 K (Temperatura Ambiente)
 
@@ -353,7 +356,7 @@ Podemos evaluar la termodinámica global del paso de síntesis utilizando los da
 *   **Entalpía de los Productos:** $(-888.038) + (-392.047) = -1280.085 \text{ eV}$
 *   **$\Delta H_{reaccion}$** = $-1280.085 - (-1279.346) = \mathbf{-0.739 \text{ eV}}$
 
-El valor negativo de la entalpía ($\Delta H < 0$) demuestra de forma innegable que la reacción es **exotérmica**. El sistema libera energía al medio ambiente en forma de calor al formar enlaces amida más estables, lo que coincide directamente con los reportes experimentales de la *Royal Society of Chemistry* que indican que el matraz se calienta ("exothermically").
+El valor negativo de la entalpía ($\Delta H < 0$) demuestra que la reacción es **exotérmica**. El sistema libera energía en forma de calor al formar enlaces amida más estables, lo que coincide directamente con los reportes experimentales de la *Royal Society of Chemistry* que indican que el recipiente se calienta.
 
 Calculando la Energía de Gibbs del sistema:
 *   **Gibbs de Reactivos:** $(-633.642) + (-646.396) = -1280.038 \text{ eV}$
@@ -363,23 +366,23 @@ Calculando la Energía de Gibbs del sistema:
 La energía de Gibbs fuertemente negativa ($\Delta G \ll 0$) afirma que la síntesis de acetaminofén es **altamente espontánea y termodinámicamente favorable** a temperatura ambiente.
 
 ### 2. Energía de Solvatación (Efecto del Entorno Agua vs Gas)
-Comparar las Tablas revela por qué el agua es un solvente ideal. 
-Para el **acetaminofén a 298.15 K**, $G_{tot}$ en gas es -888.068 eV, mientras que en agua desciende a -888.527 eV. Esta diferencia de **-0.459 eV** corresponde a la **energía de solvatación**. El modelo ALPB demuestra que las moléculas de agua polarizan y estabilizan los grupos funcionales (-OH y -NH-CO-) de la molécula a través de puentes de hidrógeno, disminuyendo drásticamente la energía libre del sistema. Todos los componentes de la reacción (reactivos y productos) son más estables en agua que en fase gaseosa.
+Comparar las Tablas revela por qué el agua es un buen solvente para esta reacción. 
+Para el **acetaminofén a 298.15 K**, $G_{tot}$ en gas es -888.068 eV, mientras que en agua desciende a -888.527 eV. Esta diferencia de **-0.459 eV** corresponde a la **energía de solvatación**. El modelo ALPB demuestra que las moléculas de agua polarizan y estabilizan los grupos funcionales (-OH y -NH-CO-) de la molécula a través de puentes de hidrógeno, disminuyendo la energía libre del sistema. Todos los componentes de la reacción (reactivos y productos) son un poco más estables en agua que en fase gaseosa.
 
-### 3. La Paradoja de la Temperatura (Control Cinético vs Termodinámico)
-Si la reacción es exotérmica y espontánea a 25 °C, ¿por qué la literatura (Métodos I, II y III) sugiere calentar el sistema a reflujo (100 °C / 373.15 K)? 
-Al observar la Tabla 6.3, notamos que a 373.15 K la entropía ($S_{tot}$) aumenta por la agitación térmica y los grados de libertad vibracionales excitados. Esto hace que las energías de Gibbs sean aún más negativas ($G = H - TS$). 
+### 3. Cambios en la Temperatura 
+Si la reacción es exotérmica y espontánea a 25 °C, ¿por qué calentar el sistema a reflujo (100 °C / 373.15 K)? 
+Al observar la Tabla 6.3, notamos que a 373.15 K la entropía ($S_{tot}$) aumenta por la agitación térmica. Esto hace que las energías de Gibbs sean aún más negativas ($G = H - TS$).
 
-Sin embargo, el calentamiento no se hace por razones termodinámicas (el equilibrio ya está desplazado a los productos a temperatura ambiente), sino por **cinética química**. Aplicar calor a 373.15 K proporciona la energía de activación necesaria para acelerar las colisiones efectivas entre el aminofenol y el anhídrido acético, reduciendo el tiempo de reacción de 30 minutos (a temperatura ambiente) a tan solo 15 minutos (a reflujo).
+Sin embargo, el calentamiento no se hace por razones termodinámicas, sino por **cinética química**. Aplicar calor a 373.15 K proporciona la energía de activación necesaria para acelerar las colisiones efectivas entre el aminofenol y el anhídrido acético, reduciendo el tiempo de reacción de 30 minutos (a temperatura ambiente) a tan solo 15 minutos (a reflujo).
 
 ### 4. Estabilidad de la Molécula Intermedia
-Los cálculos muestran una observación sumamente interesante: el aducto intermedio (estado tetraédrico) en agua tiene un $G_{tot}$ de **-1280.863 eV**, lo cual es marginalmente más bajo (más estable) que la suma de los productos separados (-1280.783 eV). Esto sugiere computacionalmente que el intermedio zwitteriónico o hemianinal se estabiliza de forma extrema por la red de puentes de hidrógeno del solvente implícito ALPB. En la realidad, la ruptura del enlace C-O para expulsar el ión acetato es impulsada por la ganancia de entropía traslacional (se generan dos moléculas separadas a partir de una), un efecto dinámico que corona a los productos como el estado final irreversible.
+Los cálculos muestran una observación interesante: el intermedio en agua tiene un $G_{tot}$ de **-1280.863 eV**, lo cual es más bajo (más estable) que la suma de los productos separados (-1280.783 eV). Esto sugiere computacionalmente que el intermedio se estabiliza. En la realidad, la ruptura del enlace C-O para la eliminación del ión acetato es impulsada por la ganancia de entropía.
 
 
 
 ## Referencias
 
-1. Srabovic, M., Huremovic, M., Catovic, B., Kulic, S., & Taletovic, A. (2017). Design synthesis and crystallization of acetaminophen. *Journal of Chemical, Biological and Physical Sciences*, 7(1), 218-230.
+1. Srabovic, M., Huremovic, M., Catovic, B., Kulic, S., & Taletovic, A. (2017). Design synthesis and crystallization of acetaminophen. *Journal of Chemical, Biological and Physical Sciences*, 7(1), 218-230.un efecto dinámico que corona a los productos como el estado final irreversible.
 2. Ellis, F. (2002). *Paracetamol - a curriculum resource*. Royal Society of Chemistry.
 3. Amin, M., & Iqbal, M. S. (2015). *Solvent free synthesis of acetaminophen* (U.S. Patent No. 9,006,488 B1). U.S. Patent and Trademark Office.
 4. Parveen, S., et al. (2023). Two-Step Synthesis of Paracetamol: A Laboratory Experiment for Undergraduate Students. *Journal of Chemical Education*.
