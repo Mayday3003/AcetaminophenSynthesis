@@ -2,22 +2,17 @@
 
 set -euo pipefail
 
-BASE_DIR="/home/Mayday3003/Documents/github_repos/AcetaminophenSynthesis"
+BASE_DIR="/home/Mayday3003/Documents/github_repos/AcetaminophenSynthesis/molecula_intermedia"
 
 command -v xtb >/dev/null || {
     echo "ERROR: xtb no encontrado"
     exit 1
 }
 
-command -v python3 >/dev/null || {
-    echo "ERROR: python3 no encontrado"
-    exit 1
-}
+find "$BASE_DIR" -maxdepth 1 -type f -name "*.xyz" | while read -r xyz; do
 
-find "$BASE_DIR" -type f -name "*.sdf" | while read -r sdf; do
-
-    mol_dir=$(dirname "$sdf")
-    mol_name=$(basename "$sdf" .sdf)
+    mol_dir=$(dirname "$xyz")
+    mol_name=$(basename "$xyz" .xyz)
 
     echo
     echo "========================================"
@@ -37,16 +32,11 @@ find "$BASE_DIR" -type f -name "*.sdf" | while read -r sdf; do
     mkdir -p "$mol_dir/water/mo"
 
     ########################################
-    # SDF -> XYZ GAS
+    # COPY XYZ GAS
     ########################################
 
     GAS_XYZ="$mol_dir/gas/opt/${mol_name}.xyz"
-
-    python3 << EOF
-from ase.io import read, write
-atoms = read(r"$sdf")
-write(r"$GAS_XYZ", atoms)
-EOF
+    cp "$xyz" "$GAS_XYZ"
 
     ########################################
     # OPT GAS
