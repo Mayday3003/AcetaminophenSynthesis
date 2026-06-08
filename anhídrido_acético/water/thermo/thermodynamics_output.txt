@@ -1,0 +1,22 @@
+Propiedades Termodinámicas
+Archivo de Frecuencias: vibspectrum
+Energía SCF (Base): -648.80825 eV
+
+--- 298.1 K ---
+Energía Punto Cero (ZPE):  2.58069 eV
+Entalpía Total (H_tot):    -645.97437 eV
+Entropía Total (S_tot):    0.03268 kcal/(mol·K)
+Energía de Gibbs (G_tot):  -646.39685 eV
+
+--- 353.1 K ---
+Energía Punto Cero (ZPE):  2.58069 eV
+Entalpía Total (H_tot):    -645.90117 eV
+Entropía Total (S_tot):    0.03652 kcal/(mol·K)
+Energía de Gibbs (G_tot):  -646.46042 eV
+
+--- 373.1 K ---
+Energía Punto Cero (ZPE):  2.58069 eV
+Entalpía Total (H_tot):    -645.87252 eV
+Entropía Total (S_tot):    0.03790 kcal/(mol·K)
+Energía de Gibbs (G_tot):  -646.48580 eV
+

@@ -270,32 +270,110 @@ El aminofenol actuará como el nucleófilo. El HOMO muestra que la densidad elec
 Por otro lado, el anhídrido acético actuará como el electrófilo. La forma de su LUMO muestra de forma explícita que la inserción de electrones se encuentra sobre los carbonos carbonílicos. Por tanto, el evento de reacción inicial implicará el solapamiento del lóbulo del HOMO ubicado en el átomo de nitrógeno del aminofenol con el gran lóbulo del LUMO ubicado en el carbono carbonílico del anhídrido acético. Este solapamiento promueve la transferencia de carga que inicia la formación de un nuevo enlace C-N, forzando simultáneamente la ruptura del enlace C-O.
 
 
-# 5
+# 5. Cálculo Termodinámico
 
-
-## Mejora script : `script_thermo_xtb_complete_all.py` vs `new_thermo.py`
-
+## Mejora de script: `script_thermo_xtb_complete_all.py` vs `new_thermo.py`
 
 A continuación, se detallan las principales diferencias y las ventajas que introducen:
 
 #### 1. Corrección de Errores Termodinámicos y Matemáticos 
 
-*   **Aislamiento de la Energía de Punto Cero (ZPE):** En el script original, la ZPE se sumaba múltiples veces de manera redundante (a la entalpía, y luego dos veces más en el cálculo de Gibbs), lo que resultaba en un sobrecálculo de la Energía Libre final. La nueva versión calcula y aísla la ZPE, sumándola una única vez al estructurar todo con la ecuación formal: $$H_total = SCF + H_thermal + ZPE` y `G_total = H_total - TS$$.
-
-*   **Constantes Físicas Universales:** Se eliminó el factor de conversión erróneo (`0.0002909`) usado para pasar frecuencias a kilocalorías. Ahora se utiliza de forma explícita la constante física $hc/k_B$ (`1.4388`), corrigiendo el error de magnitud..
+*   **Aislamiento de la Energía de Punto Cero (ZPE):** En el script original, la ZPE se sumaba múltiples veces de manera redundante (a la entalpía, y luego dos veces más en el cálculo de Gibbs), lo que resultaba en un sobrecálculo de la Energía Libre final. La nueva versión calcula y aísla la ZPE, sumándola una única vez al estructurar todo con la ecuación formal: $H_{total} = SCF + H_{thermal} + ZPE$ y $G_{total} = H_{total} - TS$.
+*   **Constantes Físicas Universales:** Se eliminó el factor de conversión erróneo (`0.0002909`) usado para pasar frecuencias a kilocalorías. Ahora se utiliza de forma explícita la constante física $hc/k_B$ (`1.4388`), corrigiendo el error de magnitud.
 
 *   **Cálculo Correcto de la Entalpía ($H$):** El script anterior asignaba la Entalpía de traslación como $\frac{3}{2}RT$, confundiéndola con la Energía Interna ($U$). La refactorización ahora suma rigurosamente todas las energías internas y al final aplica la corrección térmica general sumando el término $RT$.
 *   **Grados de Libertad Rotacional:** Se ajustaron los aportes entrópicos para moléculas lineales y no lineales reflejando la teoría cinética de gases ideales.
 
-### 2   **Vectorización con NumPy:**
+### 2. Vectorización con NumPy y Estabilidad
 
-Se sustituyeron los  bucles *for* por operaciones vectorizadas en matrices de `NumPy`. Esto permite evaluar las ecuaciones térmicas para todos los modos vibracionales de forma simultánea, acelerando la ejecución.
-
+Se sustituyeron los bucles *for* por operaciones vectorizadas en matrices de `NumPy`. Esto permite evaluar las ecuaciones térmicas para todos los modos vibracionales de forma simultánea, acelerando la ejecución.
 
 *   **Estabilidad en Evaluaciones Logarítmicas:** Se implementó una protección matemática (`+ 1e-12`) dentro del cálculo de la entropía vibracional al usar `np.log`. Esto previene caídas repentinas del script o errores de tipo al enfrentarse a logaritmos de cero en escenarios de temperaturas muy bajas o frecuencias muy altas.
+*   **Interfaz de Línea de Comandos (CLI) Dinámica:** La propiedad estructural de linealidad pasó de estar puesta como predeterminada (`is_linear_molecule=True`) dentro del archivo, a dinámica desde la terminal (`--linear`), flexibilizando enormemente el uso del script.
 
+---
 
-*   **Interfaz de Línea de Comandos (CLI) Dinámica:** La propiedad estructural de linealidad pasó de estar puesta como predeterminada (`is_linear_molecule=True`) dentro del archivo, a dinámica desde la terminal (`--linear`), flexibilizando enormemente el uso del script."
+# 6. Resumen de Potenciales Termodinámicos 
+
+## A. Justificación de las Temperaturas Evaluadas
+
+Para realizar un análisis termodinámico riguroso, se escogieron tres temperaturas específicas basándose en los reportes de la literatura de la síntesis del acetaminofén:
+1. **298.15 K (25 °C - Temperatura Ambiente):** Es la temperatura a la cual se desarrolla la reacción según el protocolo de la Royal Society of Chemistry [2] y el Método IV de Srabovic et al [1]. Modela el estado natural de los reactivos y productos sin estimulación térmica extra.
+2. **353.15 K (80 °C - Fase de Purificación):** Es la temperatura mencionada en la literatura [2] a la cual se disuelve el producto crudo en agua para su recristalización.
+3. **373.15 K (100 °C - Reflujo/Baño María):** Modela los métodos I, II y III de síntesis [1], donde se somete el sistema a ebullición o reflujo suave para acelerar la reacción.
+
+## B. Tablas de Potenciales Termodinámicos
+
+Para facilitar la comparativa del efecto de solvatación, los resultados (obtenidos del archivo anexo `resumen_termodinamico.csv`) se han separado en tablas según la temperatura.
+
+### Tabla 6.1 - Potenciales a 298.15 K (Temperatura Ambiente)
+
+| Molécula | Entorno | ZPE (eV) | Entalpía $H_{tot}$ (eV) | Entropía $S_{tot}$ (kcal/mol·K) | Gibbs $G_{tot}$ (eV) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Aminofenol | Gas | 3.15887 | -633.04273 | 0.02095 | -633.31358 |
+| Aminofenol | Agua | 3.14689 | -633.37222 | 0.02093 | -633.64278 |
+| Anhídrido Acético | Gas | 2.59714 | -645.64562 | 0.02795 | -646.00694 |
+| Anhídrido Acético | Agua | 2.58069 | -645.97437 | 0.03268 | -646.39685 |
+| Molécula Intermedia | Gas | 5.87722 | -1279.52211 | 0.06262 | -1280.33169 |
+| Molécula Intermedia | Agua | 5.84221 | -1280.05956 | 0.06216 | -1280.86322 |
+| Acetaminofén | Gas | 4.19795 | -887.57917 | 0.03782 | -888.06818 |
+| Acetaminofén | Agua | 4.17908 | -888.03847 | 0.03782 | -888.52747 |
+| Ácido Acético | Gas | 1.62007 | -391.70097 | 0.01679 | -391.91800 |
+| Ácido Acético | Agua | 1.60323 | -392.04727 | 0.01621 | -392.25686 |
+
+### Tabla 6.2 - Potenciales a 353.15 K (80 °C - Recristalización)
+
+| Molécula | Entorno | ZPE (eV) | Entalpía $H_{tot}$ (eV) | Entropía $S_{tot}$ (kcal/mol·K) | Gibbs $G_{tot}$ (eV) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Aminofenol | Agua | 3.14689 | -633.29610 | 0.02497 | -633.67853 |
+| Anhídrido Acético | Agua | 2.58069 | -645.90117 | 0.03652 | -646.46042 |
+| Acetaminofén | Agua | 4.17908 | -887.93119 | 0.04408 | -888.60618 |
+| Ácido Acético | Agua | 1.60323 | -392.00500 | 0.01786 | -392.27852 |
+
+### Tabla 6.3 - Potenciales a 373.15 K (100 °C - Reflujo)
+
+| Molécula | Entorno | ZPE (eV) | Entalpía $H_{tot}$ (eV) | Entropía $S_{tot}$ (kcal/mol·K) | Gibbs $G_{tot}$ (eV) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Aminofenol | Agua | 3.14689 | -633.26568 | 0.02647 | -633.69394 |
+| Anhídrido Acético | Agua | 2.58069 | -645.87252 | 0.03790 | -646.48580 |
+| Acetaminofén | Agua | 4.17908 | -887.88851 | 0.04635 | -888.63850 |
+| Ácido Acético | Agua | 1.60323 | -391.98842 | 0.01848 | -392.28739 |
+
+*(Los valores para la fase Gas a altas temperaturas y del intermedio se han documentado en el archivo CSV anexo, priorizando aquí la fase acuosa que es la de la reacción experimental).*
+
+---
+
+## C. Discusión Detallada de la Termodinámica Involucrada
+
+### 1. Espontaneidad y Calor de Reacción ($\Delta G$ y $\Delta H$)
+Podemos evaluar la termodinámica global del paso de síntesis utilizando los datos a **298.15 K en agua** para la reacción:
+**4-Aminofenol + Anhídrido Acético $\rightarrow$ Acetaminofén + Ácido Acético**
+
+*   **Entalpía de los Reactivos:** $(-633.372) + (-645.974) = -1279.346 \text{ eV}$
+*   **Entalpía de los Productos:** $(-888.038) + (-392.047) = -1280.085 \text{ eV}$
+*   **$\Delta H_{reaccion}$** = $-1280.085 - (-1279.346) = \mathbf{-0.739 \text{ eV}}$
+
+El valor negativo de la entalpía ($\Delta H < 0$) demuestra de forma innegable que la reacción es **exotérmica**. El sistema libera energía al medio ambiente en forma de calor al formar enlaces amida más estables, lo que coincide directamente con los reportes experimentales de la *Royal Society of Chemistry* que indican que el matraz se calienta ("exothermically").
+
+Calculando la Energía de Gibbs del sistema:
+*   **Gibbs de Reactivos:** $(-633.642) + (-646.396) = -1280.038 \text{ eV}$
+*   **Gibbs de Productos:** $(-888.527) + (-392.256) = -1280.783 \text{ eV}$
+*   **$\Delta G_{reaccion}$** = $-1280.783 - (-1280.038) = \mathbf{-0.745 \text{ eV}}$ (Aprox. **-17.17 kcal/mol**)
+
+La energía de Gibbs fuertemente negativa ($\Delta G \ll 0$) afirma que la síntesis de acetaminofén es **altamente espontánea y termodinámicamente favorable** a temperatura ambiente.
+
+### 2. Energía de Solvatación (Efecto del Entorno Agua vs Gas)
+Comparar las Tablas revela por qué el agua es un solvente ideal. 
+Para el **acetaminofén a 298.15 K**, $G_{tot}$ en gas es -888.068 eV, mientras que en agua desciende a -888.527 eV. Esta diferencia de **-0.459 eV** corresponde a la **energía de solvatación**. El modelo ALPB demuestra que las moléculas de agua polarizan y estabilizan los grupos funcionales (-OH y -NH-CO-) de la molécula a través de puentes de hidrógeno, disminuyendo drásticamente la energía libre del sistema. Todos los componentes de la reacción (reactivos y productos) son más estables en agua que en fase gaseosa.
+
+### 3. La Paradoja de la Temperatura (Control Cinético vs Termodinámico)
+Si la reacción es exotérmica y espontánea a 25 °C, ¿por qué la literatura (Métodos I, II y III) sugiere calentar el sistema a reflujo (100 °C / 373.15 K)? 
+Al observar la Tabla 6.3, notamos que a 373.15 K la entropía ($S_{tot}$) aumenta por la agitación térmica y los grados de libertad vibracionales excitados. Esto hace que las energías de Gibbs sean aún más negativas ($G = H - TS$). 
+
+Sin embargo, el calentamiento no se hace por razones termodinámicas (el equilibrio ya está desplazado a los productos a temperatura ambiente), sino por **cinética química**. Aplicar calor a 373.15 K proporciona la energía de activación necesaria para acelerar las colisiones efectivas entre el aminofenol y el anhídrido acético, reduciendo el tiempo de reacción de 30 minutos (a temperatura ambiente) a tan solo 15 minutos (a reflujo).
+
+### 4. Estabilidad de la Molécula Intermedia
+Los cálculos muestran una observación sumamente interesante: el aducto intermedio (estado tetraédrico) en agua tiene un $G_{tot}$ de **-1280.863 eV**, lo cual es marginalmente más bajo (más estable) que la suma de los productos separados (-1280.783 eV). Esto sugiere computacionalmente que el intermedio zwitteriónico o hemianinal se estabiliza de forma extrema por la red de puentes de hidrógeno del solvente implícito ALPB. En la realidad, la ruptura del enlace C-O para expulsar el ión acetato es impulsada por la ganancia de entropía traslacional (se generan dos moléculas separadas a partir de una), un efecto dinámico que corona a los productos como el estado final irreversible.
 
 
 

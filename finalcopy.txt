@@ -1,0 +1,774 @@
+JCBPS; Section A; November 2016 – January 2017, Vol. 7, No. 1 ; 218-230.
+
+E- ISSN: 2249 –1929
+
+Journal of Chemical, Biological and Physical Sciences
+An International Peer Review E-3 Journal of Sciences
+Available online atwww.jcbsc.org
+Section A: Chemical Sciences
+
+CODEN (USA): JCBPAT
+
+Research Article
+
+Design synthesis and crystallization of acetaminophen
+Majda Srabovic1*, Melita Huremovic1, Benjamin Catovic1, Samra Kulic1,
+Aida Taletovic1
+University of Tuzla, Faculty of Natural Sciences and Mathematics, Department of Chemistry,
+Bosnia and Herzegovina
+Received: 01 December 2016; Revised: 12 January 2017; Accepted: 16 January 2017
+
+Abstract: Acetaminophen (paracetamol) is a synthetic non-opioid derivative of paminophenol and basic bioactive molecule in numerous pharmaceutical preparations for
+the treatment of colds and flu. In combination with opioid analgesics, acetaminophen can
+also be used in the management of more severe pain such as post-surgical pain and
+providing palliative care in advanced cancer patients. Design of synthesis of
+acetaminophen is based on a modern approach of choosing the right synthetic route and
+using methods necessary for the characterization of the resulting pharmaceutically active
+compound, thereby providing reliable parameters of the chemical quality of the
+synthesized molecules. Formation of the preferred form of acetaminophen is a process
+made up of two stages, where in the first stage an acid catalyzed reaction gives the crude
+acetaminophen. The reaction takes place according to the mechanism of nucleophilic
+addition in which the nitrogen atom of the p-aminophenol as nucleophile by attacking a
+carbonyl group of acetic anhydride forms an intermediate which undergoes the further
+elimination of the acetate anion. Recrystallization is one of the most common techniques
+used for purifying drug solids. One of the goals of this study was to achieve the results
+through the crystallization process in optimum conditions, in order to improve the yield
+and adequate purity of synthesized acetaminophen. In pharmaceuticals cyclodextrins
+have mainly been used as complexing agents to increase the aqueous solubility of poorly
+218
+
+J. Chem. Bio. Phy. Sci. Sec. A, November 2016 – January 2017; Vol.7 No.1; 218-230.
+
+Design….
+
+Majda Srabovic et al.
+
+water-soluble drugs through noncovalent inclusion complexation and to increase their
+bioavailability and stability. Complexation with beta cyclodextrin was attempted to
+improve solubility of acetaminophen.
+Keywords: drugs, acetaminophen, synthesis, cyclodextrins.
+
+INTRODUCTION
+
+N-acylated aromatic amines (that have the acyl group
+bonded to the nitrogen atom) such as
+phenacetin and acetaminophen are mild analgesics and antipyretics which can be obtained
+without a prescription. Acetaminophen is the basic bioactive molecule in a number of
+pharmaceutical preparations against colds and flu, such as Tylenol and Panadol (Fig. 1.).
+Acetaminophen (paracetamol) or according to IUPAC N-(4-hydroxyphenyl) ethanamide belongs
+to the antipyretic non-opioid analgesic, molecular formula C8H9NO2 and mass 151.18 g / mol 1.
+The molecule consists of a benzene nucleus substituted by an hydroxyl group and the nitrogen
+atom of the amide group in the para (1,4) position 2. The presence of two active groups also gives
+to the benzene nucleus high reactivity during electrophilic aromatic substitution.
+OH
+O
+
+N
+H
+
+N-(4-hydroxyphenyl) acetamide
+Figure 1: Molecular structure of acetaminophen
+pK of acetaminophen is 9.70 and is classified as a weak acid 3.Acetaminophen is present in the form of
+crystalline white powder, odorless, with a slightly bitter taste. The crystals formed from a saturated
+aqueous solution, have the form of monoclinic prisms. The concentrated aqueous solution of
+acetaminophen has a pH of 5.5 to 6.5. According to BCS classification system of drugs it belongs to the
+class III, which is characterized by high solubility and low permeability 4. The values of melting point of
+acetaminophen are in the range of 168-172 0C. Acetaminophen is poorly soluble in cold water (1.4 g / 100
+ml), in hot water solubility is higher and amounts to about 5 g/100 ml. It has a low solubility in non-polar
+(toluene, pentane, benzene, petroleum ether) and chlorinated hydrocarbons (CCl 4). It shows a significant
+solubility in solvents of moderate polarity N, N-dimethylformamide, alcohols and diethylamine5.It exists
+in five polymorphic forms (of which two can only be accessed at high pressure). Form I (Fig 2.) displays
+a herringbone arrangement of molecules within the crystal structure, whilst form II is layered 6.
+
+219
+
+J. Chem. Bio. Phy. Sci. Sec. A, November 2016 – January 2017; Vol.7 No.1; 218-230.
+
+Design….
+
+Majda Srabovic et al.
+
+Figure 2: Polymorphic forms of acetaminophen.
+
+Because of the commercial importance, we have paid the attention to the synthesis and purity of
+acetaminophen. The ideal synthesis of a compound would be the one that includes translating the most
+widespread and cheapest starting material in the desired molecule, including the smallest possible number
+of phases with the most accessible reagents and the highest possible total yield. The important stage in the
+manufacture of pharmaceutically active compounds is crystallization from a solution. Over 90% of all
+pharmaceutical products such as tablets, capsules, etc., include a pharmaceutically active substance in the
+solid state 7. The overall success of the formulation process and the results of the mechanical properties of
+tablets, largely depend on the quality of crystal substances used during the tabletting process.
+The term crystallization usually involves the formation of the crystalline form of a particular solution8,
+whilst broader definition includes the precipitation process and the transformation of a solid state9..
+Methods of crystallization include the use of certain solvents, but different crystallisation conditions may
+lead to the occurrence of different crystal forms. We are constantly working on researches and finding
+new, innovative methods of manipulation of crystallization process 10. Design of synthetic route of
+acetaminophen is based on four different laboratory methods of producing the crude acetaminophen by
+nucleophilic addition mechanism, followed by elimination.
+Catalyzed by a mineral acid, acetic anhydride reacts with the amino group of p-aminophenol. In the first
+stage of the synthesis, the nucleophilic nitrogen atom of amino group of p-aminophenol attacks the
+carbonyl carbon atom of acetic anhydride towards nucleophilic addition mechanism; we get an
+intermediate compound which is subjected on further elimination of acetate anions (Fig 3). As a
+byproduct of the reaction acetic acid occurs from acetate anion and hydrogen proton which gained
+independence 11. The second phase is based on a process of recrystallization of the crude acetaminophen
+in order to get the product that meets the requirements of purity by using the appropriate solvent.
+
+220
+
+J. Chem. Bio. Phy. Sci. Sec. A, November 2016 – January 2017; Vol.7 No.1; 218-230.
+
+Design….
+
+Majda Srabovic et al.
+
+Figure 3: The reaction mechanism of acetaminophen synthesis
+
+One of the main shortcomings of many drugs, which are usually very effective, is low solubility in water.
+Therefore, the therapeutic dose is higher than the effective dose which results in a reduced bioavailability
+of the drug in the body, by using oral therapy. The solution to this problem is the inclusion of the drug in
+the molecule with higher water solubility. Natural and hydrophilic derivatives of natural cyclodextrins
+are in the spotlight because of their role as complexing agents. Cyclodextrins as macrocyclic
+oligosaccharides usually consist of 6, 7 and 8 glucopyranose units which are characterized by the
+corresponding ring structure with appropriate ring diameter and the cavity within it 12. Cyclodextrins are
+able to bind non-polar aliphatic and aromatic molecules of the same dimensions in a different ratio 1: 1, 2:
+1 and 1: 2 (Fig. 4.), depending on the guest molecules 13.
+
+Figure 4: Drug complexation with cyclodextrin a) 1: 1 complex drug-CD, b) 1: 2 complex drug-CD.
+
+221
+
+J. Chem. Bio. Phy. Sci. Sec. A, November 2016 – January 2017; Vol.7 No.1; 218-230.
+
+Design….
+
+Majda Srabovic et al.
+
+MATERIAL AND METHODS
+For a variety laboratory methods of acetaminophen synthesis were used the following substances:
+
+
+H2NC6H4OH, 4-aminophenol (p-aminophenol),
+
+97% (Acros)
+
+
+
+C4H6O3,
+
+acetic anhydride,
+
+99 % (Lach-Ner)
+
+
+
+H3PO4 ,
+
+phosphorous acid,
+
+85 % (Aldrich)
+
+
+
+Demineralized water, Distilled water, Ice.
+
+To getting the crude acetaminophen, 4 (four) different synthetic routes were conducted for the purpose of
+comparison the same. The first method of synthesis is based on the following: weighed 1.5 g of paminophenol in the erlenmeyer flask and 25 ml of deionized water were added. Stirring is carried out with
+slow addition of concentrated phosphoric acid (H3PO4). The mixture was warmed over boiling water bath
+and 2 ml of acetic anhydride was added. The reaction mixture was warmed on a water bath for 20
+minutes. After that, the mixture was cooled to room temperature and crystallization is carried out by
+additional cooling on ice bath for 20 minutes. The formed crystalline precipitate was filtered over a
+Büchner funnel, washed with a little cold distilled water and dried.
+Second method of synthesis involved the same steps, only the time of mixture heating and cooling were
+different. The mixture was warmed on a water bath for 10 minutes and additional cooling and
+crystallization on the ice lasted 30 minutes. The third method of synthesis is different from the previous
+two because the round bottom flask for heating the mixture with a reflux condenser was used. Mixture
+warming time was 15 minutes and additional crystallization cooling lasted 20-30 minutes. Synthesis was
+performed without addition of concentrated H3PO4. The fourth way is the most different from the
+previous three, because it didn’t involve mixture heating and additional crystallization cooling. In glass
+weighed 1.5 g of p-aminophenol together with 25 ml of deionized water and acetic anhydride was added.
+The mixture was stand at room temperature for 30 minutes, and mixed periodically.
+In the recrystallization of crude acetaminophen were used the following solvents:
+
+
+
+CH3OH,
+
+methanol,
+
+99,8% (Merck)
+
+
+
+C2H5OH,
+
+ethanol,
+
+96% (Merck)
+
+
+
+C3H7OH,
+
+propanol,
+
+99,8% (Merck)
+
+
+
+Aqueous solutions of methanol concentration 20%,40%,60%,80%.
+
+Recrystallization of synthesized acetaminophen was performed in the manner that the crude product
+disolved in appropriate amount of solvent to formed a supersaturated solution and then hot-filtered.
+Optimization of crystallization process where conducted at temperature of 60C for 24 h and on room
+temperature. Deionisated water was used in all the experiments. Complexation and characterization of
+synthesized samples were used by following chemicals: aqueous solutions of beta cyclodextrins different
+concentration (2-10 mM), potassium bromide, methanol, TLC eluent (55% ethyl acetate, 10% acetic acid
+and 35% petroleum ether).
+222
+
+J. Chem. Bio. Phy. Sci. Sec. A, November 2016 – January 2017; Vol.7 No.1; 218-230.
+
+Design….
+
+Majda Srabovic et al.
+
+For the purpose of analysis and characterization of synthesized acetaminophen, were applied following
+instrumental methods:
+Fourier transform infrared spectroscopy (FTIR): FTIR spectra of acetaminophen were recorded on a
+Perkin-Elmer Spectrum 1000 system, equipped with a deuterium triglycine sulfate detector. The scan
+range was 350–4000 cm-1, using eight scans per spectrum with a resolution of 4 cm-1. Spectra were
+obtained in the transmission mode in KBr pellets.
+Determination of melting point: Melting temperature of samples was determined by A.KRUSS
+Automatic Melting Point Meter - Semiauto Version, gradual warming, which includes a microscope for
+visual monitoring.
+Ultraviolet Assay: An ultraviolet–visible (UV–Vis) spectrophotometer (Perkin-Elmer, Model Lambda
+25), controlled by Perkin Elmer UV WinLab Software at the interface, was used to analyze complexation
+with beta cyclodextrins and acetaminophen solubility. Preliminary UV scanning of pure aqueous
+acetaminophen yielded a stable peak at 232 nm. A series of drug – cyclodextrin solutions was diluted as
+needed with respective solvents and analyzed by UV-Vis spectrophotometer. Fig. 5 show an excellent
+correlation (r2>0.9979) indicated that the Beer–Lambert law was obeyed in the acetaminophen
+concentration ranges of interest. The solubility of acetaminophen in beta cyclodextrins solutions was
+measured at cyclodextrin concentrations between 0 and 10 mM. Excess amounts of acetaminophen were
+added to vials containing 10.0 mL of beta cyclodextrins solutions. The resulting suspension was treated at
+room temperature (25ºC) with 150 rpm in an incubator orbital shaker for 72 hours. The solutions were
+allowed to equilibrate and analyzed on the basis of a pseudo-phase model 14. The samples were filtrated
+and the concentration of acetaminophen determined spectrophotometrically as described above. All the
+solubility experiments were carried out in triplicate.
+3
+
+Absorbance
+
+2.5
+2
+1.5
+1
+0.5
+0
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+concentration of acetaminophen (μg/ml)
+
+Figure 5: Calibration curve of acetaminophen in methanol
+Thin layer chromatography (TLC): Thin layer chromatography is a method for preliminary synthetic
+testing, separation, identification and purity determination of various compounds 15. As stationary phase
+TLC analysis of acetaminophen samples were used silica gel plates (20x20). The mobile phase (eluent)
+containing 55% ethyl acetate, 10% acetic acid and 35% petroleum ether. The preparation is based on the
+dissolution of a small amount (1 mg) sample of p-aminophenol, crude (synthesized) and acetaminophen
+223
+
+J. Chem. Bio. Phy. Sci. Sec. A, November 2016 – January 2017; Vol.7 No.1; 218-230.
+
+Design….
+
+Majda Srabovic et al.
+
+samples paracetamolum Ph.Eur. in methanol. Visualization of the sample was carring out in Camag UV
+cabinet with a lamp at 254 nm. The obtained data were processed and ANOVA statistical data processing
+RESULTS AND DISCUSSION
+During the design of acetaminophen synthesis we started from four different methods that are based on
+the formation reaction of acetaminophen molecule from the starting molecules of 4-aminophenol and
+acetic acid (Fig. 6).
+NH2
+
+O
+
+H
+N
+
+O
+
+O
+
++
+
++
+OH
+
+O
+
+O
+HO
+
+HO
+
+acetic anhydride
+
+4- acetaminophenol
+
+acetaminophen
+
+acetic acid
+
+Figure 6: Synthetic pathway of acetaminophen
+
+yield of synthetic reaction (%)
+
+Figure 7 graphically shows the yield value of four different laboratory synthesis methods of
+acetaminophen. Actually, during the third method of synthesis the heating time of the reaction mixture
+using reflux was 15 minutes, in contrast to the first (I) method (20 minutes) and second (II) method (10
+minutes). However, the key difference between the first and second method of synthesis is that in the
+design process of the third method we did not use phosphoric acid (H3PO4) as the initiator. A slightly
+lower yield of the fourth synthetic reaction method in relation to the third method of synthesis is based on
+the fact that the reaction is carried out at room temperature without additional cooling during the process
+of crystallization.
+
+70.77%
+
+80.00%
+70.00%
+60.00%
+
+64.35%
+
+55.36%
+47.33%
+
+50.00%
+40.00%
+30.00%
+20.00%
+10.00%
+0.00%
+I
+
+II
+
+III
+
+IV
+
+synthetic route
+
+Figure 7: Graphic values of yield reactions for four different acetaminophen synthesis
+
+224
+
+J. Chem. Bio. Phy. Sci. Sec. A, November 2016 – January 2017; Vol.7 No.1; 218-230.
+
+Design….
+
+Majda Srabovic et al.
+
+compatibility (%) with
+Paracetamolum Ph.Eur
+
+The results of FTIR analysis (Fig. 8.) of crude acetaminophen for four different methods of laboratory
+synthesis indicate that in addition to the largest yield percentage of synthetic reactions, by using the third
+(III) method of synthesis of molecules we get acetaminophen with a very high degree of purity, which
+99.20% cent overlaps with the pure paracetamol (European Pharmacopoeia). We have identical case with
+the fourth method of synthesis, while FTIR characterization of samples of the first and second method of
+synthesis shows lower values and requires purification.
+
+100.00%
+
+77.23%
+
+99.20%
+
+99.10%
+
+III
+
+IV
+
+84.63%
+
+80.00%
+60.00%
+40.00%
+20.00%
+
+0.00%
+I
+
+II
+
+synthetic route
+
+Figure 8: FTIR characterization synthesized samples of crude acetaminophen
+
+The mean melting point (0C)
+
+The melting point of acetaminophen ranges from 168 to 172 °C. Figure 9 graphically shows the mean
+value of the melting point (°C) of crude acetaminophen for four different laboratory synthesis methods
+which are in accordance with data for Paracetamol Ph.Eur 16.
+169.8
+169.8
+169.6
+169.4
+
+169.4
+
+I
+
+II
+
+169.4
+
+169.4
+169.2
+III
+
+IV
+
+synthetic route
+
+Figure 9: The Mean melting point (°C) of crude acetaminophen for 4 different
+synthesis methods
+225
+
+J. Chem. Bio. Phy. Sci. Sec. A, November 2016 – January 2017; Vol.7 No.1; 218-230.
+
+Design….
+
+Majda Srabovic et al.
+
+Monitoring of the flow of acetaminophen synthesis has been made by thin layer chromatography
+(Fig. 10.). We analyzed samples of p-aminophenol (Rf = 0.12) which was a starting component for the
+preparation of acetaminophen, then Paracetamolum Ph.Eur and synthesized crude acetaminophen. Based
+on the obtained values of Rf and visual determination under ultraviolet light at 254 nm, we can see that
+the difference between Rf values of standard sample -Paracetamolum Eur. Pharmacopoeia (Rf=0.65) and
+synthesized raw sample of acetaminophen (Rf = 0.67). By using the first method of synthesis, it pointed
+to the fact that the same should be additionally purified.
+
+Figure 10: TLC chromatographic plate with samples 1) p-aminophenol 2)
+Paracetamolum Ph.Eur. 3) the crude synthesized (synthesis method I) acetaminophen
+
+yield of recrystallization
+phase (%)
+
+As the solvent in the recrystallization of the crude acetaminophen phase in the first and second method of
+the laboratory synthesis aside from water we used C 1 -C 3 alcohols. From the point of yield of
+recrystallization phase, as the preferred solvent we can use concentrated methanol (Fig. 11.). With the
+increasing number of carbon atoms in the structure of alcohol it reduces the solubility of paracetamol and
+increases the time required for crystallization.
+90.00%
+80.00%
+70.00%
+60.00%
+50.00%
+40.00%
+30.00%
+20.00%
+10.00%
+0.00%
+I
+
+II
+synthetic route
+
+water
+methanol
+ethanol
+propanol
+
+Figure 11: Yield of the crude acetaminophen recrystallization phase for first and second
+laboratory synthesis method.
+226
+
+J. Chem. Bio. Phy. Sci. Sec. A, November 2016 – January 2017; Vol.7 No.1; 218-230.
+
+Design….
+
+Majda Srabovic et al.
+
+compatibility with paracetamolum
+Ph.Eur (%)
+
+As to the first and second laboratory method of synthesis of acetaminophen the effect of purification
+process with concentrated solvents is evident, because the FTIR analysis (Fig. 12.) demonstrated an
+increase in the degree of stringency as 99.4% and 99.5% compared to 77.23 % and 84.63% for the crude
+acetaminophen obtained by the first and second method of synthesis.
+
+99.50%
+
+99,40%
+100.00%
+
+84.63%
+
+77.23%
+80.00%
+60.00%
+40.00%
+20.00%
+0.00%
+I
+
+crude acetaminophen
+
+synthetic route
+
+water
+
+methanol
+
+II
+
+ethanol
+
+propanol
+
+Figure 12: The influence of recrystallization on the purity of acetaminophen from the
+first two laboratory synthesis methods
+The values of the melting point of samples of acetaminophen after recrystallization with concentrated
+solvents (Table 1) have increased and got closer to the upper limit of 172°C as opposed to the value of the
+melting points of raw samples before treatment (169,4°C), which supports the results of FTIR
+characterization.
+Table-1: Melting points of recrystallized acetaminophen sample I and II laboratory synthesis method
+Solvents
+
+I I Laboratory Method Of Synthesis
+
+Ii Laboratory Method Of Synthesis
+
+the mean melting point (°C)
+
+the mean melting point (°C)
+
+Water
+
+169,7
+
+169,6
+
+Methanol
+
+171,8
+
+171,4
+
+Ethanol
+
+171,7
+
+171,7
+
+Propanol
+
+171,6
+
+171,7
+
+We studied the effect of the aqueous binary mixtures of methanol concentration range of 20-80% on the
+yield of recrystallization phase of the crude acetaminophen along with optimization of crystallization
+conditions at room temperature and at a temperature of 6 °C for 24 h (Figure 13). It is important to point
+out that lowering the temperature of crystallization goes in favor of increasing the yield of
+227
+
+J. Chem. Bio. Phy. Sci. Sec. A, November 2016 – January 2017; Vol.7 No.1; 218-230.
+
+Design….
+
+Majda Srabovic et al.
+
+yield of recrystallization phase (%)
+
+recrystallization phase. If we use 60% methanol as a medium of crystallization by cooling the sample at
+6°C for 24 h, we achieve 37.8% higher yield of the crystallization phase relative to room temperature
+conditions. Increase of yield of the crystallization when using 80% methanol as a medium, is 88.3% in
+stated conditions.
+
+80.00%
+70.00%
+60.00%
+50.00%
+40.00%
+30.00%
+20.00%
+10.00%
+0.00%
+water
+
+20%
+methanol
+
+40%
+methanol
+
+60%
+methanol
+
+80%
+methanol
+
+I synthetic route- crystallization at room temperature
+I synthetic route- crystallization at 6°C/24h
+
+Figure 13: The effect of binary mixtures to yield of acetaminophen crystallization under
+different conditions
+
+compatibility with
+paracetamolum Ph.Eur (%)
+
+FTIR analysis of purified samples of acetaminophen under the conditions of crystallization at room
+temperature and at a temperature of 6°C for 24 h (Figure 14) shows that the binary mixture of methanol
+is suitable as crystallization medium to acetaminophen because they have reached an adequate percentage
+of correspondence (from 97.83 to 98, 83%) of given samples with Paracetamolum Ph.Eur.
+
+99.00%
+98.50%
+98.00%
+97.50%
+97.00%
+
+20%
+40%
+60%
+methanol
+methanol
+methanol
+I synthetic route- crystallization at room temperature
+I synthetic route-crystallization at 6°C/24h
+
+80%
+methanol
+
+Figure 14: FTIR analysis of acetaminophen samples crystallized at room
+temperature and at 60°C for 24 h
+228
+
+J. Chem. Bio. Phy. Sci. Sec. A, November 2016 – January 2017; Vol.7 No.1; 218-230.
+
+Design….
+
+Majda Srabovic et al.
+
+The complexing of acetaminophen with solutions of beta cyclodextrin, and their impact on the solubility
+of a given compound, has been used in the study of phase solubility. The complexing has been also used
+to determine the type of chart of phase solubility. Figure 15 presents the diagram of phase solubility of
+synthesized acetaminophen in which we can observe that the solubility of acetaminophen increases
+linearly with increasing concentration of beta-cyclodextrin (0,002-0,01M) which shows the characteristic
+phase of AL solubility curve. According to Higuchi and Connors14, provided AL solubility curve indicates
+the formation of complexes between the substrate (acetaminophen) and ligand (beta-cyclodextrin),
+depending on the relative concentration of cyclodextrin. All this indicates that the use of a 0.01 M
+aqueous solution of beta-cyclodextrin increases the solubility of acetaminophen to 13.22% compared to
+its solubility in water. The results of ANOVA analysis with p-value of 3,995-08 show that there is
+obvious statistical difference at the level of significance of 0.05 between increasing concentrations of
+aqueous solutions of cyclodextrin, and the concentration of synthesized acetaminophen.
+
+acetaminophen solubility (M)
+
+0.138
+0.136
+0.134
+0.132
+0.13
+0.128
+0.126
+0.124
+0.122
+0.12
+
+0
+
+0.002
+
+0.004
+0.006
+0.008
+beta cyclodextrin (M)
+
+0.01
+
+0.012
+
+Figure 15: Diagram of phase solubility synthesized acetaminophen
+CONCLUSION
+On the basis of these results, we may conclude that the synthesis of acetaminophen is effective and
+acceptable; thanks to the wide range of use in different inflammatory conditions it is understandable why
+it is the main active ingredient in preparations against fever. By applying four different methods of
+synthesis of acetaminophen, the significant progress has been made in terms of percentage yield of
+synthetic reactions after the third (III) method of synthesis, without the presence of a catalyst (H 3PO4)
+while warming under reflux of 70.77%. The results of FTIR characterization of samples obtained by the
+third method of synthesis suggest that produced molecules of acetaminophen have considerable degree of
+purity, which 99.20% cent overlaps with the pure acetaminophen (European Pharmacopoeia).
+Physicochemical analysis of the melting point of acetaminophen samples synthesized in four different
+methods are in accordance with literature values in the range from 168 to 172 0C. During the process of
+recrystallization of acetaminophen synthesized samples it has been found that with increasing number of
+carbon atoms in the structure of the alcohol decreases the solubility of acetaminophen and increases the
+time required for crystallization. Analysis of the results of UV spectroscopy points out the possibility of
+the complexing of acetaminophen with cyclodextrin, because obtained linear dependence of increased
+229
+
+J. Chem. Bio. Phy. Sci. Sec. A, November 2016 – January 2017; Vol.7 No.1; 218-230.
+
+Design….
+
+Majda Srabovic et al.
+
+acetaminophen solubility with the increase of beta-cyclodextrin concentrations indicates a potential
+interaction.
+ACKNOWLEDGEMENT
+The authors are thankful to The Federal Ministry of Education and Science Bosnia and Herzegovina for
+their financial support.
+REFERENCES
+1. United States Pharmacopeia and National Formulary (USP 29 NF 24). Supplement No. 2.
+Rockville, 2006, 3711.
+2. J.R. Bales, J.K. Nicholson, P.J. Sadler, Clin. Chem. 1985, 31, 757.
+3. H. M. Zaki, Spectroscopy Surface Analysis of Paracetamol and Paracetamol and Excipient
+Systems, Doctoral Dissertation, University of Manchester, Faculty of Engineering and
+Physical Sciences, 2011.
+4. L. Kalantzi, C. Reppas, J.B. Dressman, G.L. Amidon, H.E. Junginger, K.K. Midha, V.P.
+Shah,S.A. Stavchansky,D. M. Barends, J.Pharm. Sci., 2006, 95, 4.
+5. Budavari S, The Merck Index: an encyclopedia of chemicals, drugs and biologicals, 12th ed.
+Rahway, New Jersey, Merck and Co., Inc. 1996.
+6. L.R. Agnew, D. L. Cruickshank, T. McGlone, C. C. Wilson , Chem. Commun., 2016, 52,
+7368.
+7. C. Valder, D. Merrifield, Pharmaceutical Technology. SmithKline Beecham R&D News
+1996.
+8. N. Blagden, M. De Matas, P.T. Gavan, P. York, Adv. Drug Deliv. Rev., 2007, 59, 617.
+9. B. Y Shekunov, P. York, J. Cryst. Growth. 2000, 211, 122.
+10. H. Tung, E.L. Paul, M. Midler, J.A. McCauly, Crystallization of organic compounds: an
+industrial perspective, New Jersey, John Wiley & Sons, 2009.
+11. F. Požgan, B.Štefane, Uvod v laboratorijsko organsko kemijo, Ljubljana, Fakulteta za
+kemijo in kemijsko tehnologijo, Univerza v Ljubljani, 2011.
+12. A.S. Balte, P.K.Goyal, S.P.Gejji, J.Chem.Pharm. Res. 2012, 4, 2391.
+13. M.E. Davis, M. E. Brewster, Nat. Rev. Drug Discov. 2004, 3, 1023.
+14. T. Higuchi, K.A. Connors, Adv.Anal.Chem.Instrum. 1965, 4, 117.
+15. M. F. Striegel, J. Hill, Thin-Layer Chromatography for Binding Media Analysis. The Getty
+Conservation Institute, Los Angeles 1996.
+16. W.M. Haynes, CRC handbook of chemistry and physics. 94th edition. CRC Press LLC,
+Boca Raton, 2013-2014, 3-314.
+
+Corresponding author: Majda Srabović
+Department of Chemistry, Faculty of Natural Sciences and Mathematics, University of Tuzla,
+Univerzitetska 4, 75000 Tuzla, Bosnia and Herzegovina; Email : majda.srabovic@untz.ba
+
+On line publication Date: 16.01.2017
+
+230
+
+J. Chem. Bio. Phy. Sci. Sec. A, November 2016 – January 2017; Vol.7 No.1; 218-230.
+
+
