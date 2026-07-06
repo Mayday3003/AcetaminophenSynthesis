@@ -27,7 +27,7 @@ In practice, the repository helps answer questions such as:
 - Optimized structures for the main species involved in the mechanism.
 - Vibrational data that support infrared interpretation and thermodynamic corrections.
 - Molecular orbital files for visualizing HOMO and LUMO behavior.
-- A consolidated thermodynamic summary in `mecanismos_reaccion/resumen_termodinamico.csv`.
+- A consolidated thermodynamic summary in `reaction_mechanism/resumen_termodinamico.csv`.
 - A full written report in `Informe_completo.md`.
 
 ## Repository Structure
@@ -38,15 +38,15 @@ The repository is organized by chemical species, solvent environment, and calcul
 AcetaminophenSynthesis/
 ├── Informe_completo.md
 ├── README.md
-├── scripts_termo/
+├── thermo_scripts/
 │   ├── new_thermo.py
 │   └── script_thermo_xtb_complete_all.py
-├── acetaminofen/
-├── acido_acetico/
-├── aminofenol/
-├── anhídrido_acético/
-├── molecula_intermedia/
-└── mecanismos_reaccion/
+├── acetaminophen/
+├── acetic_acid/
+├── aminophenol/
+├── acetic_anhydride/
+├── intermediate_molecule/
+└── reaction_mechanism/
 ```
 
 Each molecule folder follows the same pattern:
@@ -94,11 +94,11 @@ The project includes the main species involved in the mechanism:
 
 ### Read the report
 
-Open `Informe_completo.md` for the full explanation of the chemistry, methodology, and results.
+Open `Informe_completo.md` for the full report in Spanish, or `Informe_completo_en.md` for the English version.
 
 ### Compare thermodynamics
 
-Open `mecanismos_reaccion/resumen_termodinamico.csv` to compare ZPE, enthalpy, entropy, and Gibbs free energy across molecules, solvents, and temperatures.
+Open `reaction_mechanism/resumen_termodinamico.csv` to compare ZPE, enthalpy, entropy, and Gibbs free energy across molecules, solvents, and temperatures.
 
 ### Visualize geometries
 
@@ -114,7 +114,7 @@ Inspect `[molecule]/water/ir/vibspectrum` for the simulated infrared information
 
 ## Thermodynamic Scripts
 
-The `scripts_termo/` folder contains the Python scripts used to process xTB outputs.
+The `thermo_scripts/` folder contains the Python scripts used to process xTB outputs.
 
 - `new_thermo.py` is the corrected and vectorized version used in the project pipeline.
 - `script_thermo_xtb_complete_all.py` is the earlier baseline version kept for reference.
@@ -122,7 +122,7 @@ The `scripts_termo/` folder contains the Python scripts used to process xTB outp
 ### Example usage
 
 ```bash
-python scripts_termo/new_thermo.py \
+python thermo_scripts/new_thermo.py \
     --temps 298.1 353.1 373.1 \
     --file path/to/vibspectrum \
     --out path/to/xtb_output.out
