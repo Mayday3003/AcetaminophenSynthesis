@@ -1,11 +1,20 @@
 # Síntesis de Acetaminofén (Paracetamol)
 
-La síntesis del acetaminofén (N-(4-hidroxifenil)acetamida) se basa fundamentalmente en la acilación (es el proceso químico donde se introduce un grupo acilo (-COR) en una molécula orgánica, uniéndolo a un átomo de nitrógeno, oxígeno o carbono)  del 4-aminofenol [1, 2]. En esta reacción, usamos anhídrido acético para convertir una amina en una amida. Durante el proceso se genera ácido acético como subproducto [4].
-
+**Autor:** Mariana Lopera Correa
 
 ---
+
 # 1. INTRODUCCIÓN
-## A. Revisión Bibliográfica
+
+## A. Contexto Histórico
+
+El acetaminofén (paracetamol) es uno de los fármacos más utilizados a nivel mundial. Aunque fue sintetizado por primera vez en 1878 por Harmon Northrop Morse, su valor clínico permaneció ignorado durante décadas. Inicialmente, el mercado estuvo dominado por alternativas más tóxicas como la acetanilida y la fenacetina. No fue hasta finales de la década de 1940 que estudios en la Universidad de Yale demostraron que el paracetamol es el metabolito activo y seguro de estos fármacos previos, ofreciendo excelente analgesia sin sus severos efectos adversos (como la methemoglobinemia y la nefrotoxicidad). Este descubrimiento catalizó su comercialización masiva en 1955 bajo la marca Tylenol, marcando un hito en la farmacología.
+
+## B. Reacción General
+
+La síntesis química del acetaminofén (N-(4-hidroxifenil)acetamida) se basa fundamentalmente en la acilación del 4-aminofenol [1, 2]. En esta reacción, empleamos anhídrido acético para transferir un grupo acilo y convertir la amina primaria en una amida estable, un proceso que genera ácido acético como subproducto natural [4].
+
+## C. Revisión Bibliográfica
 
 La siguiente tabla resume fuentes fundamentales para la comprensión de la termodinámica, cinética y las condiciones experimentales de la síntesis del acetaminofén.
 
@@ -72,7 +81,7 @@ Este procedimiento describe la síntesis del acetaminofén utilizando agua como 
 
 ### Fase 5: Purificación del producto (Recristalización)
 10. **Acción:** Transferir el acetaminofén crudo a un Erlenmeyer limpio. Añadir una cantidad mínima de agua destilada caliente (aproximadamente 10-15 mL a 80 °C) hasta disolución total.
-11. **Justificación y Química:** La recristalización se basa en la cristalización fraccionada térmica. Al calentar, el acetaminofén se disuelve por completo aprovechando su alta solubilidad en caliente (5.0 g/100 mL). Los cristales que crecen lentamente al enfriar excluyen las impurezas de su red cristalina [1].
+11. **Justificación y Química:** La recristalización se basa en la cristalización fraccionada térmica. Al calentar, el acetaminofén se disuelve por completo aprovechando su alta solubilidad en caliente (5.0 g/100 mL). Los cristales que crecen lentamente al enfriar excluyen las impurezas de suácido red cristalina [1].
 
 12. **Acción:** Permitir que la solución se enfríe lentamente a temperatura ambiente y posteriormente aplicar baño de hielo para maximizar el rendimiento. Filtrar nuevamente al vacío y proceder al secado de los cristales.
 
@@ -86,8 +95,8 @@ Este procedimiento describe la síntesis del acetaminofén utilizando agua como 
 
 | Reactivo | PubChem CID | Estructura |
 | :--- | :--- | :--- | 
-| 4-aminofenol | 403 | ![4-aminofenol](https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/403/PNG) |
-| Anhídrido acético | 7918 | ![Anhídrido acético](https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/7918/PNG) |
+| 4-aminofenol | 403 | ![4-aminofenol](images/4-aminofenol.png) |
+| Anhídrido acético | 7918 | ![Anhídrido acético](images/anhidrido_acetico_pubchem.png) |
 
 ## 2.2 Modelo de Solvatación ALPB en xTB
 
@@ -234,20 +243,25 @@ A continuación, se presentan los esquemas extraídos del programa:
 **Reactivo 1: Anhídrido Acético**
 
 ![HOMO del anhídrido acético](images/homo_anhídrido_acético.png)
+
 *Figura 1: Representación del HOMO (Orbital 20) para el anhidrido acetico.*
 
 ![LUMO del anhidrido acetico (vista 1)](images/lumo_anhídrido_acético.png)
+
 *Figura 2: Representación del LUMO (Orbital 21) para el anhidrido acetico.*
 
 ![LUMO del anhidrido acetico (vista 2)](images/lumo2_anhídrido_acético.png)
+
 *Figura 3: Representación alternativa del LUMO (Orbital 21) para el anhidrido acetico, evidenciando la simetría de los lóbulos sobre los carbonilos.*
 
 **Reactivo 2: Aminofenol**
 
 ![HOMO del aminofenol](images/homo_aminofenol.png)
+
 *Figura 4: Representación del HOMO (Orbital 21) para el aminofenol.*
 
 ![LUMO del aminofenol](images/lumo_aminofenol.png)
+
 *Figura 5: Representación del LUMO (Orbital 22) para el aminofenol.*
 
 ## c) Análisis de HOMO y LUMO de cada reactivo y su relación con la reactividad
@@ -270,7 +284,97 @@ El aminofenol actuará como el nucleófilo. El HOMO muestra que la densidad elec
 Por otro lado, el anhídrido acético actuará como el electrófilo. La forma de su LUMO muestra de forma explícita que la inserción de electrones se encuentra sobre los carbonos carbonílicos. Por tanto, el evento de reacción inicial implicará el solapamiento del lóbulo del HOMO ubicado en el átomo de nitrógeno del aminofenol con el gran lóbulo del LUMO ubicado en el carbono carbonílico del anhídrido acético. Este solapamiento promueve la transferencia de carga que inicia la formación de un nuevo enlace C-N, forzando simultáneamente la ruptura del enlace C-O.
 
 
-# 5. Cálculo Termodinámico
+# 5. Mecanismo de reacción y Pasos intermedios
+
+<img src="images/mecanismo_de_reaccion.png"/>
+
+*Figura 5: Mecanismo de reacción para la síntesis de acetaminofén.*
+
+
+El mecanismo de reacción ilustrado en la figura corresponde a una típica **Sustitución Nucleofílica en el Acilo**.
+1. **Ataque Nucleofílico:** El nitrógeno del grupo amina del p-aminofenol, aprovechando su par de electrones libres (cuyo alto nivel de energía fue identificado en el análisis de su HOMO), ataca al carbono del carbonilo del anhídrido acético. 
+2. **Formación del Intermedio:** Este choque rompe el enlace $\pi$ del carbonilo, desplazando la densidad electrónica hacia el oxígeno y generando un intermedio inestable. En este estado transitorio, el carbono atacado cambia su hibridación de $sp^2$ a $sp^3$. El nitrógeno adquiere temporalmente una carga formal positiva al sostener 4 enlaces, mientras que el oxígeno empujado se carga negativamente.
+3. **Eliminación y Transferencia de Protón:** La alta densidad electrónica del oxígeno negativo se utiliza para restaurar el enlace doble del carbonilo ($C=O$). Esto fuerza la ruptura del enlace C-O adyacente, expulsando a el ión acetato. De forma simultánea, el nitrógeno cede su protón extra ($H^+$) al ión acetato, neutralizando ambas especies y arrojando los productos finales: Acetaminofén y Ácido Acético.
+
+### Frecuencias 
+<img src="images/intermediario.png"/>
+
+
+
+<img src="images/intermedio_water.png"/>
+
+*Figura 6: Frecuencia de vibración del intermedio en agua*
+
+<img src="images/intermedio_gas.png">
+
+*Figura 7: Frecuencia de vibración del intermedio en fase gaseosa*
+
+**Discusión de Frecuencias (Intermedio):**
+Al formarse el intermedio, el espectro infrarrojo modelado sufre un cambio drástico respecto a los reactivos aislados:
+*   **Desaparición de las vibraciones de los carbonilos del anhídrido:** Las señales masivas alrededor de ~1850-1900 $cm^{-1}$ desaparecen por completo. Esto prueba computacionalmente que la estructura rígida del anhídrido ha colapsado y la resonancia acoplada de sus dos carbonilos se rompe después del ataque nucleofílico.
+*   **Densidad de enlaces C-O:** Se observa una intensificación de señales en la "región de la huella dactilar" (1000 - 1300 $cm^{-1}$) debido al carbono central $sp^3$, el cual ahora sostiene múltiples enlaces simples polarizados con el oxígeno y el grupo saliente.
+*   **Efecto de la Solvatación:** Al comparar el intermedio gaseoso frente al acuoso, se nota que en el agua la intensidad de los estiramientos heteroatómicos (O-H y N-H por encima de 3000 $cm^{-1}$) se multiplican. Debido a que el intermedio tiene una gran separación de cargas (un oxígeno negativo y un nitrógeno positivo), el medio acuoso simulado (ALPB) interactúa de forma extrema con puentes de hidrógeno. 
+
+
+### HOMO y LUMO
+
+*   **HOMO :** El HOMO del intermedio  revela que la mayor densidad electrónica, se concentran fuertemente sobre el átomo de oxígeno que acaba de absorber el enlace $\pi$ roto. Este oxígeno (cargado negativamente en el mecanismo), buscando donar ese par de electrones para volver a formar el doble enlace termodinámicamente estable.
+
+<img src="images/homo_intermedio.png">
+
+*Figura 8: HOMO del intermedio.*
+
+<img src="images/lumo_intermedio.png">
+
+*Figura 9: LUMO del intermedio.*
+
+<img src="images/lumo2_intermedio.png">
+
+*Figura 10: LUMO del intermedio.*
+
+
+# Productos
+
+### Frecuencias 
+
+<img src="images/acetaminophen_gas.png">
+
+*Figura 11: Frecuencia de vibración del acetaminofén en estado gaseoso.*
+
+<img src="images/acetaminophen_water.png">
+
+*Figura 12: Frecuencia de vibración del acetaminofén en agua*
+
+<img src="images/acido_acetico_gas.png" >
+
+*Figura 13: Frecuencia de vibración del ácido acético en estado gaseoso*
+
+<img src="images/acido_acetico_water.png" >
+
+*Figura 14: Frecuencia de vibración del ácido acético en agua*
+
+**Discusión de Frecuencias (Productos):**
+
+*   **La Amida  (Acetaminofén):** Aparece una absorción en el rango de ~1650 - 1680 $cm^{-1}$. Esta es la firma del grupo acetamida. Su frecuencia es menor a la del carbonilo del anhídrido original; esto ocurre porque el par libre del nitrógeno ahora participa en una estabilización por resonancia con el oxígeno adyacente, reduciendo la fuerza del enlace $C=O$.
+
+*   **Estiramiento N-H y O-H:** En la fase gas, los estiramientos del N-H de la amida y el O-H del fenol se ven como picos delgados. Sin embargo, al modelarse en agua, estas bandas se fusionan de forma ancha y difusa debido a la interacción de puentes de hidrógeno.
+*   **Ácido Acético (Subproducto):** Muestra la banda de stretching $C=O$ de ácido carboxílico cerca de los ~1700 $cm^{-1}$, acoplada a una banda muy ancha provocada por el estiramiento O-H del grupo carboxilo afectado  por el modelo ALPB de agua.
+
+### HOMO y LUMO
+
+
+<img src="images/homo_acetaminophen.png">
+
+*Figura 15: HOMO del acetaminofén.*
+
+<img src="images/lumo_acetaminophen.png">
+
+*Figura 16: LUMO del acetaminofén.*
+
+
+La configuración electrónica del producto final constata la culminación exitosa de la reactividad:
+*   **HOMO:** En la molécula de acetaminofén, el HOMO se encuentra deslocalizado a lo largo del anillo aromático y el oxígeno fenólico. Es importante notar que el grupo acetamida recién creado (específicamente el nitrógeno que originalmente atacó) ya no posee la alta densidad electrónica que mostraba en los reactivos. La reacción ha estabilizado sus electrones al entrelazarlos por resonancia con el oxígeno del carbonilo, suprimiendo la nucleofilicidad inicial.
+*   **LUMO:** El LUMO se distribuye de manera fragmentada sobre el anillo aromático mostrando nodos netamente antienlazantes ($\pi^*$). La ausencia de grandes lóbulos (como los que exhibía el electrófilo original) comprueba que el acetaminofén carece de centros electrofílicos importantes. El fármaco se ha vuelto altamente estable frente a colisiones aleatorias en el medio acuoso.
 
 ## Mejora de script: `script_thermo_xtb_complete_all.py` vs `new_thermo.py`
 
@@ -380,9 +484,29 @@ Los cálculos muestran una observación interesante: el intermedio en agua tiene
 
 
 
+
+# 7. Conclusiones
+
+## A. Potencialidad de la modelación computacional
+La química computacional ha demostrado ser una herramienta excelente para comprender los eventos microscópicos que rigen la síntesis del acetaminofén. Su mayor potencialidad radica en hacer visible lo invisible:
+*   **Sustento del mecanismo de reacción:** Se pudo validar el mecanismo de sustitución nucleofílica al observar de forma visual y numérica cómo la localización de los orbitales HOMO (en el nucleófilo) y LUMO (en el electrófilo) dictan la trayectoria exacta de la reacción.
+*   **Predicción y Cuantificación Termodinámica:** La modelación permitió calcular que la reacción tiene un $\Delta H < 0$ y un $\Delta G < 0$, justificando matemáticamente las observaciones macroscópicas reportadas en el laboratorio (la liberación de calor y la espontaneidad del proceso).
+*   **Análisis del Entorno:** Simulando el sistema en fase gas y en agua, se pudo aislar y cuantificar la energía de solvatación, demostrando de forma contundente por qué el agua es un solvente ideal que estabiliza las especies polares e intermedios cargados a lo largo de la ruta de síntesis.
+
+## B. Capacidades y limitaciones de xTB
+**Capacidades en nuestro caso puntual y general:**
+*   **Eficiencia Computacional:** xTB (específicamente la parametrización GFN2-xTB) permitió realizar optimizaciones de geometría, cálculos de frecuencias vibracionales y extracción de orbitales moleculares para sistemas medianos en tiempos excepcionalmente cortos. Lograr esto mismo usando métodos *ab initio* o DFT tradicionales consumiría demasiados recursos y tiempo.
+*   **Modelo de Solvatación Robusto:** La inclusión del modelo ALPB demostró ser capaz de capturar la estabilización de los reactivos por el solvente, reflejando cambios lógicos y profundos en los espectros infrarrojos y en los potenciales termodinámicos.
+
+**Limitaciones:**
+*   **Aproximaciones Semiempíricas:** Al basarse en aproximaciones de enlace fuerte (tight-binding) y parámetros pre-ajustados, los valores energéticos absolutos pueden tener desviaciones respecto a niveles de teoría superiores. Por ejemplo, la estabilidad calculada para la molécula intermedia ($G_{tot} = -1280.863$ eV) respecto a los productos separados ($G_{tot} = -1280.783$ eV) podría ser un artefacto de sobreestabilización del modelo ALPB al tratar un estado transitorio fuertemente polarizado.
+*   **Frecuencias Armónicas Sin Escalar:** Las frecuencias infrarrojas se calculan bajo la aproximación del oscilador armónico. Al no considerar la anarmonicidad natural de los enlaces ni contar con factores de escalado predeterminados, las bandas teóricas (como el estiramiento de los dobles enlaces) suelen aparecer desplazadas hacia números de onda más altos en comparación con un espectro IR experimental.
+
+---
+
 ## Referencias
 
-1. Srabovic, M., Huremovic, M., Catovic, B., Kulic, S., & Taletovic, A. (2017). Design synthesis and crystallization of acetaminophen. *Journal of Chemical, Biological and Physical Sciences*, 7(1), 218-230.un efecto dinámico que corona a los productos como el estado final irreversible.
+1. Srabovic, M., Huremovic, M., Catovic, B., Kulic, S., & Taletovic, A. (2017). Design synthesis and crystallization of acetaminophen. *Journal of Chemical, Biological and Physical Sciences*, 7(1), 218-230.
 2. Ellis, F. (2002). *Paracetamol - a curriculum resource*. Royal Society of Chemistry.
 3. Amin, M., & Iqbal, M. S. (2015). *Solvent free synthesis of acetaminophen* (U.S. Patent No. 9,006,488 B1). U.S. Patent and Trademark Office.
 4. Parveen, S., et al. (2023). Two-Step Synthesis of Paracetamol: A Laboratory Experiment for Undergraduate Students. *Journal of Chemical Education*.
